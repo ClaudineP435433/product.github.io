@@ -1,27 +1,31 @@
 # product-presentation
 
-## Déscription générale
-Ce template permet de présenter une idée d’application web prototypée avec https://www.figma.com. 
+## Les bases de HTML/CSS
 
-Ex: https://joz84.github.io/product.github.io/ . 
+Lien vers les bases : https://bit.ly/3jClQY8
+
+## Déscription générale
+Cette initiation permet de présenter une idée d’application web.
+
+Ex: https://joz84.github.io/product.github.io/ .
 
 Elle contient 6 sections :
 * Une barre de navigation
 * Une bannière
-* Un section présentant le concept
-* Une section présentant une Prévisualisation du prototype Figma	
-* Une section présentant l’équipe
-* Un pied de page 
+* Un section de présentation
+* Une section présentant la bande annonce du film
+* Une section présentant le casting
+* Un pied de page
 
 ## Structure
-Le template est structuré de la manière suivante:
+Le cours est structuré de la manière suivante:
 * Un fichier index.html
 * Un fichier style.css avec le style À NE PAS MODIFIER
 * Un fichier custom.css regroupant les propriétés modifiable
-* Un dossier « images » contenant toutes les images au format jpg sauf le logo au format png ( correspondant au format produit par freelogodesign.org ) 
+* Un dossier « images » contenant toutes les images au format jpg sauf le logo au format png ( correspondant au format produit par freelogodesign.org )
 
-## Import du template
-Lien vers le projet Github: https://github.com/Joz84/product.github.io
+## Import de l'initiation
+Lien vers le projet Github: https://github.com/ClaudineP435433/product.github.io
 
 <img src="/images-readme/setup.png" width=700>
 
@@ -30,7 +34,7 @@ Décompresser le fichier sur sa machine et l’ouvrir dans sublime text
 
 ## Personnaliser le texte
 ### Le contenu
-L’ensemble du texte à modifier est dans le fichier index.html. Avec la configuration de base de sublime text ( theme: Monokai ) le texte modifiable a la couleur syntaxique BLANCHE. Il est déconseillé de toucher le reste, car cela risque de casser la structure globale du site. 
+L’ensemble du texte à modifier est dans le fichier index.html. Avec la configuration de base de sublime text ( theme: Monokai ) le texte modifiable a la couleur syntaxique BLANCHE. Il est déconseillé de toucher le reste, car cela risque de casser la structure globale du site.
 
 ### La police
 Pour personnaliser la police il faut tout d’abord choisir une police sur https://fonts.google.com.
@@ -73,7 +77,7 @@ h1, h2, h3, h4, h5, h6, i, .item { color: #00898E; }
 ```
 
 ### Le fond de couleur ( dégradé ) de la présentation du Figma
-Pour modifier la fond couleur, il faut encore une fois modifier le fichier custom.css. Plus précisément, les lignes 14, 15 et 16 qui sont issues de https://www.uigradients.com	
+Pour modifier la fond couleur, il faut encore une fois modifier le fichier custom.css. Plus précisément, les lignes 14, 15 et 16 qui sont issues de https://www.uigradients.com
 
 <img src="/images-readme/uigradients1.png" width=700>
 
@@ -143,13 +147,13 @@ La mise en production se fera sur https://github.com.
 
 ### Copier le dossier sur son compte Github
 
-Après être retourné sur le dossier : 
+Après être retourné sur le dossier :
 
 https://github.com/Joz84/product.github.io
 
 <img src="/images-readme/fork1.png" width=700>
 
-Cliquer sur « Fork » en haut à droite. 
+Cliquer sur « Fork » en haut à droite.
 
 <img src="/images-readme/fork2.png" width=700>
 
@@ -193,11 +197,11 @@ Cliquer sur « None » dans la rubrique « Source », puis sur « Master br
 
 <img src="/images-readme/prod3.png" width=700>
 
-Le site est alors en ligne. Un bandeau bleu avec le message « Your site is ready to be published at https://joz84.github.io/product.github.io/. » 
+Le site est alors en ligne. Un bandeau bleu avec le message « Your site is ready to be published at https://joz84.github.io/product.github.io/. »
 
 <img src="/images-readme/prod4.png" width=700>
 
-Rafraîchissez la page.  
+Rafraîchissez la page.
 
 Au bout d’une minute, lorsque le bandeau devient vert avec le message suivant : « 
  Your site is published at https://joz84.github.io/product.github.io/ »
