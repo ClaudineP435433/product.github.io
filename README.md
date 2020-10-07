@@ -100,33 +100,25 @@ Cliquer sur « CLICK TO COPY » et coller le code à la place des lignes 14, 1
 ## Personnaliser les images
 Il est fortement conseillé de ne pas modifier le code pour changer les images. Il est conseillé de changer les images dans le dossier images. Pour que cela fonctionne il faut que les images et le MÊME NOM et la MÊME EXTENTION. Les extensions sont toutes jpg SAUF le logo qui est en png ( car cela correspond au format fourni par freelogodesign.org ).
 
-## Inclure son la prévisualisation du prototype Figma
-Pour inclure la prévisualisation du prototype Figma il faut se rendre sur https://www.figma.com sur son projet et lancer la présentation ( le triangle en haut à droite ) :
+## Inclure une vidéo Youtube
+* Aller sur Youtube et choisir une video (https://www.youtube.com/watch?v=fBuSNu2m3XA&feature=youtu.be)
+* Taper clique droit sur la vidéo.
+* Cliquer sur "< > Copier le code d'intégration".
+<kbd>
+  <img src="images-readme/youtube.png" alt="youtube">
+</kbd>
 
-<img src="/images-readme/figma1.png" width=700>
+* Coller le code dans le fichier html la où vous souhaitez intégrer la vidéo :
 
-Puis cliquer sur « Share Prototype » en haut à droite :
+Remarque : Il est possible de changer la taille de la vidéo grâce aux attributs "width" et "height".
 
-<img src="/images-readme/figma2.png" width=700>
-
-Puis « Public embed »:
-
-<img src="/images-readme/figma3.png" width=700>
-
-Puis « Copy » :
-
-<img src="/images-readme/figma4.png" width=700>
-
-Enfin coller le code dans le fichier index.html à la place de la ligne 93 :
 ```html
-<!-- ########## -->
-<!-- Récupérer cette ligne de code sur Figma: https://www.figma.com/ -->
-<iframe style="border: none;" width="600" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FKDiAjenZMX9E13POgPsYTzBV%2Fkedge-2019-4%3Fnode-id%3D0%253A1%26scaling%3Dscale-down" allowfullscreen></iframe>
-<!-- ########## -->
+<h3>La recette en vidéo</h3>
+<iframe width="500" height="300" src="https://www.youtube.com/embed/fBuSNu2m3XA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
 
-## Personnaliser le nombre de membres de l'équipe
-Si l’équipe n’est pas constituée de 4 personnes il est possible d’ajouter/supprimer une fiche de présentation d’un membre dans la rubrique « L’équipe ». Pour cela il suffit de copier/supprimer le section comprise entre la ligne 141 et 151 du fichier index.html :
+## Personnaliser le casting du film
+Si le casting n’est pas constituée de 4 personnes il est possible d’ajouter/supprimer une fiche de présentation d’un membre dans la rubrique « Casting ». Pour cela il suffit de copier/supprimer le section comprise entre la ligne 141 et 151 du fichier index.html :
 ```html
 <!-- ########## -->
 <!-- Supprimer( ou copier-coller) ces lignes code pour supprimer (ou ajouter) un membre à la team -->
